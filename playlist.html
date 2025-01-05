@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+
+    <!-- Font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!--  Custom css file link  -->
+      <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+     <!--  Header section start  -->
+
+     <header class="header">
+        <section class="flex">
+            <a href="index.html" class="logo">Study Buddy.</a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" placeholder="search courses..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search_box">
+                </button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="profile.png" alt="">
+                <h3>Arbaz Khan</h3>
+                <span>Student</span>
+                <a href="profile.html" class="btn">View Profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">Login</a>
+                    <a href="register.html" class="option-btn">Register</a>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <!--  Header section ends  -->
+
+    <!--  side bar section starts -->
+
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="profile.png" alt="">
+            <h3>Arbaz Khan</h3>
+            <span>Student</span>
+            <a href="profile.html" class="btn">View Profile</a>
+            
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a> 
+            <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a> 
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a> 
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a> 
+            <a href="chat.html"><i class='far fa-comment-dots'></i><span>Chat Us</span></a>
+            <a href="forum.html"><i class="fa-solid fa-recycle"></i><span>Forum</span></a>
+            <a href="video-call.html"><i class="fa-solid fa-video"></i><span>Video Call</span></a>
+         </nav>
+    </div>
+
+    <!--  side bar section ends -->
+
+    <!--  playlist section starts  -->
+
+    <section class="playlist">
+
+        <h1 class="heading">playlist details</h1>
+
+        <div class="row">
+
+            <div class="col">
+                <form action="" method="post" class="save-list">
+                    <button type="submit" name="save_list"><i class="far fa-bookmark"></i><span>save playlist</span>
+                    </button>
+                </form>
+                <div class="thumb">
+                    <span>6 videos</span>
+                    <img src="html.png" alt="">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="tutor">
+                    <img src="htmllll.jpeg" alt="">
+                    <div>
+                        <h3>John deo</h3>
+                        <span>developer</span>
+                    </div>
+                </div>
+                <div class="details">
+                    <h3>complete HTML tutorial</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Quidem labore commodi veniam perspiciatis soluta veritatis.</p>
+                        <div class="date"><i class="fas fa-calendar"></i><span>21-25-2024</span></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--  playlist section ends  -->
+
+    <!--  videos container section starts  -->
+
+    <section class="videos-container">
+
+        <h1 class="heading">playlist videos</h1>
+
+        <div class="box-container">
+
+            <a href="watch-video.html" class="box"><i class="fas fa-play"></i>
+                <img src="image post 1.jpg" alt="">
+                <h3>complete HTML tutorial (part 01)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box"><i class="fas fa-play"></i>
+                <img src="image post 2.jpg" alt="">
+                <h3>complete HTML tutorial (part 02)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box"><i class="fas fa-play"></i>
+                <img src="image post 3.jpg" alt="">
+                <h3>complete HTML tutorial (part 03)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box"><i class="fas fa-play"></i>
+                <img src="image post 4.jpg" alt="">
+                <h3>complete HTML tutorial (part 04)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box"><i class="fas fa-play"></i>
+                <img src="image post 5.jpg" alt="">
+                <h3>complete HTML tutorial (part 05)</h3>
+            </a>
+
+            <a href="watch-video.html" class="box"><i class="fas fa-play"></i>
+                <img src="image post 6.jpg" alt="">
+                <h3>complete HTML tutorial (part 06)</h3>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!--  videos container section ends  -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
